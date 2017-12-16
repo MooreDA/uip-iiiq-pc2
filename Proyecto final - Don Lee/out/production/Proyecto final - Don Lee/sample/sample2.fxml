@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />
@@ -56,32 +56,32 @@
                   <Image url="@Clan%206.PNG" />
                </image>
             </ImageView>
-            <Button fx:id="agregar1" layoutX="47.0" layoutY="201.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Agregar">
+            <Button fx:id="agregar1" layoutX="47.0" layoutY="201.0" mnemonicParsing="false" onAction="#agregar1" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Pedir">
                <font>
                   <Font name="Segoe Print" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="agregar2" layoutX="279.0" layoutY="200.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Agregar">
+            <Button fx:id="agregar2" layoutX="279.0" layoutY="200.0" mnemonicParsing="false" onAction="#agregar2" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Pedir">
                <font>
                   <Font name="Segoe Print" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="agregar3" layoutX="504.0" layoutY="200.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Agregar">
+            <Button fx:id="agregar3" layoutX="504.0" layoutY="200.0" mnemonicParsing="false" onAction="#agregar3" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Pedir">
                <font>
                   <Font name="Segoe Print" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="agregar4" layoutX="47.0" layoutY="386.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Agregar">
+            <Button fx:id="agregar4" layoutX="47.0" layoutY="386.0" mnemonicParsing="false" onAction="#agregar4" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Pedir">
                <font>
                   <Font name="Segoe Print" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="agregar5" layoutX="279.0" layoutY="386.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Agregar">
+            <Button fx:id="agregar5" layoutX="279.0" layoutY="386.0" mnemonicParsing="false" onAction="#agregar5" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Pedir">
                <font>
                   <Font name="Segoe Print" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="agregar6" layoutX="504.0" layoutY="386.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Agregar">
+            <Button fx:id="agregar6" layoutX="504.0" layoutY="386.0" mnemonicParsing="false" onAction="#agregar6" prefHeight="18.0" prefWidth="65.0" style="-fx-background-color: F7B572;" text="Pedir">
                <font>
                   <Font name="Segoe Print" size="12.0" />
                </font>
